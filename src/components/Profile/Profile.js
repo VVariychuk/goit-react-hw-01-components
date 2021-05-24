@@ -11,7 +11,7 @@ export default function Profile({ name, tag, location, avatar, stats }) {
               
         />
         <p className="name">{name}</p>
-        <p className="tag">{tag}</p>
+        <p className="tag">@{tag}</p>
         <p className="s.location">{location}</p>
 
         <ul className="stats">

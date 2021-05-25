@@ -1,11 +1,11 @@
 /* eslint-disable react/no-typos */
 import PropTypes from 'prop-types';
 import TransactionListItem from './TransactionListItem';
-
+import styles from './TransactionList.module.css'
 
 export default function TransactionList({transactions}) {
 return (
-<table class="transaction-history">
+<table className={styles.transactionHistory}>
   <thead>
     <tr>
       <th>Type</th>

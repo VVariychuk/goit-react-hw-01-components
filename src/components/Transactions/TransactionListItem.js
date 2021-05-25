@@ -1,6 +1,7 @@
 /* eslint-disable react/no-typos */
 import PropTypes from 'prop-types'
 
+
 export default function TransactionListItem({type, amount, currency}) {
     return (
     <tr>

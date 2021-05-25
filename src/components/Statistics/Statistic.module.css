@@ -1,0 +1,6 @@
+.statListItm {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 5px;
+  width: 47px;
+}

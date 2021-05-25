@@ -1,0 +1,28 @@
+.profile {
+  max-width: 280px;
+  padding: 10px 20px;
+  margin: 0;
+  text-align: center;
+  border: 1px solid rgb(2, 3, 32);
+}
+
+.avatar {
+  display: block;
+  border-radius: 50%;
+  border: 1px solid rgb(2, 3, 32);
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.stats {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid rgb(2, 3, 32);
+}
+
+.statsItm {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  text-align: center;
+}

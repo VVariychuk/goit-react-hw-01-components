@@ -1,0 +1,27 @@
+.item {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.statusIndicator {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.online {
+  composes: statusIndicator;
+  background-color: green;
+}
+
+.offline {
+  composes: statusIndicator;
+  background-color: red;
+}
+
+.avatar {
+  margin: 0 10px;
+}
